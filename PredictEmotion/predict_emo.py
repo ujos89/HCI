@@ -73,7 +73,7 @@ while True:
 
     # esc 를 눌러 종료
     if cv2.waitKey(1) == 27:
-        preds_record.to_pickle("./data/data_200922_2.pkl")
+        preds_record.to_pickle("./data/data_200923.pkl")
         break
 
 # 프로그램을 clear 하고 창을 닫음
